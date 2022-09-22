@@ -71,8 +71,18 @@ elif max_grade(grades) <= 4:
 else:
     print("neprospel")
 
+#
+x1, x2 = 24,16
 
+while x1 != x2:
 
+    if x1 > x2:
+        x1 = x1 - x2
+
+    else:
+        x2 = x2 - x1
+
+print(x1)
 
 
 
