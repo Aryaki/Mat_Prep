@@ -72,7 +72,7 @@ else:
     print("neprospel")
 
 #
-x1, x2 = 24,16
+x1, x2 = 24, 16
 
 while x1 != x2:
 
@@ -83,7 +83,6 @@ while x1 != x2:
         x2 = x2 - x1
 
 print(x1)
-
 
 
 
