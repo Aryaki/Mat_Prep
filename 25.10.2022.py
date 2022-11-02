@@ -20,11 +20,11 @@ else:
         days += months[i]
 
 #############################################################
-tip = [24, 15, 48, 79, 36, 47]
+tip = [24, 15, 48, 19, 36, 47]
 out = []
 
 while len(out) != 6:
-    x = rn.randint(1, 49)
+    x = rn.randint(1, 50)
     if x not in out:
         out.append(x)
 
