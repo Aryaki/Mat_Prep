@@ -26,3 +26,23 @@ y = y % 60
 
 print(f"Total time: {x} minutes and {y} seconds")
 
+################################################################
+ffile = open("C:/Users/skola/Desktop/subory/pracdoba.txt")
+llines = ffile.readlines()
+final = []
+for i in range(len(llines)):
+    x1, x2 = llines[i].strip("\n").split(" ")[1].split(":")
+    y1, y2 = llines[i].strip("\n").split(" ")[2].split(":")
+
+    if x2 > y2:
+        final.append(f"{int(y1) - int(x1)}:{60 - int(x2) + int(y2)}")
+    else:
+        final.append(f"{int(y1) - int(x1)}:{int(y2) - int(x2)}")
+
+final
+
+
+
+
+
+
