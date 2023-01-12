@@ -23,6 +23,3 @@ for i in range(len(alphabet)):
 
 
 
-
-
-
