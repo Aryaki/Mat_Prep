@@ -9,8 +9,8 @@ canvas.pack()
 y = 0
 for line in file:
     for x in range(width):
-        shade = line[2*x:2*x + 2]
-        color = "#" + 3*shade
+        shade = line[2 * x:2 * x + 2]
+        color = "#" + 3 * shade
 
         canvas.create_rectangle(x, y, x+1, y+1, fill=color, width=0)
     canvas.update()
