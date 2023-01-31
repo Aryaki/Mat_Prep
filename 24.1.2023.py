@@ -20,6 +20,7 @@ def key(e):
     elif e.keysym == "Down":
         sx, sy = 0, 1
 
+
 sx, sy = 0, -1
 
 end = True
