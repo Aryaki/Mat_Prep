@@ -26,17 +26,6 @@ def game(pos):
     turn = not turn
 
 
-
-
-
-
-
-
-
-
-
-
-
 canvas.bind('<Button-1>', game)
 
 canvas.mainloop()

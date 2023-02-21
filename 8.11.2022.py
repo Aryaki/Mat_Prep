@@ -1,11 +1,11 @@
-num = 74
-sus = 9
+num = 1179
+sus = 16
 
 ans = []
 
 while num != 0:
-    ans.append(num%sus)
-    num = num//16
+    ans.append(num % sus)
+    num = num//sus
 
 alpha = ["A", "B", "C", "D", "E", "F"]
 

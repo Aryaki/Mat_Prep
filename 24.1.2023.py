@@ -1,10 +1,7 @@
 import tkinter
-
 x, y = 250, 250
 canvas = tkinter.Canvas(width=500, height=500, bg='white')
 canvas.pack()
-
-
 def key(e):
     global sx, sy
 
@@ -19,12 +16,9 @@ def key(e):
 
     elif e.keysym == "Down":
         sx, sy = 0, 1
-
-
 sx, sy = 0, -1
 
 end = True
-
 while end:
     if x < 0 or x > 500 or y < 0 or y > 500:
         end = False

@@ -12,44 +12,8 @@ def animation(): # "While true" can be used instead of the function
     canvas.after(100, animation)
 
 
-slogan = 'Epstein did not kill himself'
+slogan = ''
 slogan = " "*4 + slogan + " " * (40 - len(slogan))
 animation()
 
 canvas.mainloop()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
